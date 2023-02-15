@@ -1,0 +1,6 @@
+- id: check-python-init-files
+  name: check-python-init-files
+  description: Check if an __init__.py file exists in each folder containing a .py file, otherwise creates it
+  entry: check-python-init-files
+  language: python
+  types: [python]
